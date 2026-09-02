@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(9, 21, 21);
+
+}
+
+.contentmenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 60px;
+
+    border-radius: 15px;
+    background-color: rgb(39, 57, 86);
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+.logo p {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.menu {
+    display: flex;
+    width: 600px;
+    height: 49px;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+.menu a:hover {
+    color: aqua;
+}
+
+
+.contentrect2 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+    margin-top: 70px;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+
+.rect1 {
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 15px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/protégez-votre-monde-numérique.jpg);
+    background-size: cover;
+    color: white;
+    gap: 30px auto;
+    padding: 10px;
+}
+
+.rect2 {
+    width: 45%;
+    height: 350px;
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 15px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/menace-fréquentes.jpg);
+    background-size: cover;
+    color: white;
+    gap: 30px auto;
+    padding: 10px;
+}
+
+.rect2 h3 {
+    margin-top: auto;
+    font-size: 30px;
+}
+
+.rect1 h2 {
+    margin-top: auto;
+    font-size: 30px;
+}
+
+.grandrect {
+    width: 90%;
+    height: 300px;
+    border: 2px solid white;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 15px;
+    background-image: url(Images/protéger-mon-entreprise.jpg);
+    background-size: cover;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    jfustify-content: center;
+    align-items: center;
+
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 600px;
+    gap: 30px;
+    border-radius: 17px;
+
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.services div {
+    border-radius: 17px;
+    color: white;
+
+}
+
+.audit {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/audit-de-sécurité.jpg);
+    background-size: cover;
+
+
+}
+
+.reseau {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/protection-réseau.jpg);
+    background-size: cover;
+}
+
+.anti {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/protection-anti-phishing.jpg);
+    background-size: cover;
+}
+
+.sauvegarde {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/sauvegarde.jpg);
+    background-size: cover;
+}
+
+.gestion {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/gestion-dees-accès.jpg);
+    background-size: cover;
+}
+
+.incidents {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Images/gestion-des-incidents.jpg);
+    background-size: cover;
+}
