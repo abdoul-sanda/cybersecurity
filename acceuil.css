@@ -8,7 +8,7 @@ body {
     justify-content: space-between;
     margin-top: auto;
     margin-bottom: auto;
-    width: 100%;
+    width: 100vw;
     height: 60px;
 
     border-radius: 15px;
@@ -40,6 +40,13 @@ body {
 
 
 
+}
+nav{
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100vw;
 }
 
 .menu a {
