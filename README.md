@@ -13,4 +13,4 @@ Est un site vitrine que dans lequel une société expose à un public ces serviv
 - laprotection du réseau
 - la sauvegarde de fichiers de documents 
 
- Il a été fait toujours dans le cadre d'appliquer mes compétences pratiques en Programmation web 
+ Ce site  a été fait toujours dans le cadre d'appliquer mes compétences pratiques en Programmation web 
